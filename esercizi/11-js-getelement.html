@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <title>Titolo della pagina</title>
+</head>
+
+<body>
+  <h1>Javascript 1</h1>
+  <h2 id="id1">Javascript 2</h2>
+  <h2>Javascript 3</h2>
+
+  <script>
+    let h2 = document.getElementsByTagName("h2");
+    for (let i = 0; i < h2.length; i++) {
+      document.write("+" + h2[i].innerHTML + "-");
+    }
+    let id2 = document.querySelector('#id1');
+    id2.innerHTML += " - aggiunto all'elemento id1";
+    id2.style = "border: 1px solid black;";
+  </script>
+
+</body>
+
+</html>

@@ -6,12 +6,13 @@
 </head>
 
 <body>
-  <h1 onclick="click1()">Onclick</h1>
+  <h1 onclick="click1()" id="id1">Onclick</h1>
   <h2 onmouseover="click2()" onmouseout="click3()">Onmouse over out</h2>
 
   <script>
     function click1(item) {
-      alert("click1");
+      let h1 = document.getElementById("id1");
+      h1.innerHTML = "Nuovo <br>titolo";
     }
 
     function click2(item) {

@@ -10,7 +10,11 @@
 
   <script>
     window.alert("Ciao");
-    alert(window.confirm("Premi ok"));
+    if (window.confirm("Premi ok")) {
+      document.write("ok");
+    } else {
+      document.write("ti ho detto di premere ok");
+    }
   </script>
 
 </body>
