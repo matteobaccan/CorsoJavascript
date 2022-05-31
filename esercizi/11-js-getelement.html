@@ -3,12 +3,24 @@
 
 <head>
   <title>Titolo della pagina</title>
+  <style>
+    #cookie {
+      border: 1px solid black;
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      width: 100px;
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Javascript 1</h1>
   <h2 id="id1">Javascript 2</h2>
   <h2>Javascript 3</h2>
+  <h3 onclick="showCookie()">click me</h3>
+  <div id="cookie" onclick="hideCookie()">COOKIE</div>
 
   <script>
     let h2 = document.getElementsByTagName("h2");
@@ -18,6 +30,16 @@
     let id2 = document.querySelector('#id1');
     id2.innerHTML += " - aggiunto all'elemento id1";
     id2.style = "border: 1px solid black;";
+
+    function showCookie() {
+      let cookie = document.querySelector('#cookie');
+      cookie.style = "display:block;";
+    }
+
+    function hideCookie() {
+      let cookie = document.querySelector('#cookie');
+      cookie.style = "display:none;";
+    }
   </script>
 
 </body>
