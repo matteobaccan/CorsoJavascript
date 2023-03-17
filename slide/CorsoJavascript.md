@@ -155,7 +155,7 @@ Gli statement sono costrutti e comandi che comandano un’azione
 alert(‘Ciao’);
 ```
 
-Per separare uno statement dall’altro possiamo inserire un ; oppure semplicemente andare a capo
+Per separare uno statement dall’altro possiamo inserire un __;__ oppure semplicemente andare a capo
 
 ```javascript
 alert(‘Ciao2’)
@@ -185,7 +185,7 @@ multiriga
 
 ---
 
-## Javascript-  user strict
+## Javascript - use strict
 
 Per molto tempo, JavaScript si è evoluto senza problemi di compatibilità.
 Sono state aggiunte nuove funzionalità, mentre le vecchie non venivano cambiate.
