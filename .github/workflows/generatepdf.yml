@@ -1,10 +1,10 @@
-name: Genera PDF
+name: Genera PDF CorsoJavascript
 
 on:
   push:
     branches: [ main ]
     paths:
-      - 'slide/*.*'
+      - 'slide/CorsoJavascript.md'
 
 jobs:
   build:
