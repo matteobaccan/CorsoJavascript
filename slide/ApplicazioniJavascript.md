@@ -36,6 +36,63 @@ All'interno di queste slide provo ad elencare una serie di prodotti utilizzabili
 
 ## Slider
 
+Gli slider sono elementi grafici interattivi che consentono di visualizzare una serie di immagini in sequenza, solitamente all'interno di una sezione della pagina web.
+
+Gli slider possono essere utilizzati per creare presentazioni di immagini, gallerie fotografiche o caroselli pubblicitari.
+
+In genere, gli slider sono composti da un'area principale in cui viene visualizzata l'immagine corrente e da controlli (come frecce o punti) che consentono all'utente di passare avanti o indietro nella sequenza delle immagini.
+
+Gli slider possono essere creati utilizzando codice HTML, CSS e JavaScript, oppure possono essere implementati utilizzando librerie e plugin già esistenti.
+
+---
+
+## Slider - ispirazioni
+
+<li><a href="https://swiperjs.com/demos">Swiperjs</a>: uno slider touch-friendly con molte funzionalità, supporta
+        swipe, slide multiple, autoplay, loop, effetti di transizione e molto altro. È anche compatibile con i
+        principali framework JavaScript come React, Angular e Vue.</li>
+
+<li><a href="https://kenwheeler.github.io/slick/">Slick</a>: uno slider jQuery con molte funzionalità, supporta
+        slide multiple, autoplay, loop, effetti di transizione, navigazione e molto altro.</li>
+
+<li><a href="https://flickity.metafizzy.co/#feature-showcase">Flickity</a>: uno slider touch-friendly con effetti di
+        transizione fluidi, supporta slide multiple, autoplay, loop, navigazione e molto altro.</li>
+
+<li><a href="https://glidejs.com/docs/">Glide.js</a>: uno slider leggero e semplice da usare, supporta swipe, slide
+        multiple, autoplay, navigazione e molto altro.</li>
+
+---
+
+## Slider - ispirazioni 2
+
+<li><a href="https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html">Owl Carousel 2</a>: uno slider jQuery con
+        molte funzionalità, supporta slide multiple, autoplay, loop, effetti di transizione, navigazione e molto altro.
+    </li>
+
+<li><a href="https://splidejs.com/">Splide</a>: uno slider leggero e performante, supporta swipe, slide multiple,
+        autoplay, loop, effetti di transizione, navigazione e molto altro.</li>
+
+<li><a href="http://ganlanyuan.github.io/tiny-slider/demo/">Tiny Slider</a>: uno slider leggero e semplice da usare,
+        supporta swipe, slide multiple, autoplay, loop, navigazione e molto altro.</li>
+
+---
+
+## PlaceHolder
+
+I placeholder di immagini sono immagini temporanee che vengono utilizzate per occupare lo spazio in cui verrà successivamente inserita l'immagine definitiva.
+
+Queste immagini temporanee possono essere utilizzate per dare un'idea delle dimensioni e della posizione dell'immagine finale, ma non contengono il contenuto effettivo dell'immagine.
+
+I placeholder di immagini sono spesso utilizzati durante lo sviluppo di un sito web o di un'applicazione per aiutare a visualizzare come apparirà la pagina una volta che tutte le immagini saranno state caricate.
+
+Ci sono diversi strumenti online che consentono di generare placeholder di immagini personalizzati con diverse dimensioni, colori e stili.
+
+---
+
+## PlaceHolder - ispirazioni
+
+https://loremipsum.io/21-of-the-best-placeholder-image-generators/
+
 ---
 
 Fonti
