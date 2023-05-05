@@ -88,7 +88,7 @@ console.log("Hello World");
 
 ---
 
-## Javascript può essere aggiunto ai documenti HTML in 2 modi:
+## Javascript può essere aggiunto ai documenti HTML in 2 modi
 
 Interno - utilizzando un elemento __\<script\>__
 Esterno: utilizzando un elemento __\<link\>__ per collegarsi a un file JS esterno
@@ -137,7 +137,9 @@ All’interno del codice javascript, in qualsiasi momento, è possibile fermare 
 
 Per fare questo è necessario utilizzare il comando
 
-    debugger
+```javascript
+debugger
+```
 
 ---
 
@@ -155,7 +157,7 @@ Gli statement sono costrutti e comandi che comandano un’azione
 alert(‘Ciao’);
 ```
 
-Per separare uno statement dall’altro possiamo inserire un __;__ oppure semplicemente andare a capo
+Per separare due statement possiamo inserire un __;__ oppure semplicemente andare a capo
 
 ```javascript
 alert(‘Ciao2’)
@@ -164,7 +166,7 @@ alert(‘Ciao3’)
 
 ---
 
-## Javscript commenti
+## Javascript commenti
 
 I commenti in Javascript possono essere fatti in 2 modi:
 
@@ -226,7 +228,7 @@ let messaggio
 
 ## Javascript - datatype
 
-Ci sono 8 tipi base in javascript. Essendo una variabile solo il nome di una zona di memoria, possiamo cambiarne il tipo in qualsiasi momento passando, ad esempio da numero a stringa di caratteri, senza avere errori. 
+Ci sono 8 tipi base in javascript. Essendo una variabile solo il nome di una zona di memoria, possiamo cambiarne il tipo in qualsiasi momento passando, ad esempio da numero a stringa di caratteri, senza avere errori.
 
 Numeri : sia interi che a virgola mobile
 
@@ -383,9 +385,9 @@ Il modo corretto col quale possiamo interagire con delle pagine HTML è tramite 
 
 ```javascript
 onchange    Al cambio dell’elemento HTML
-onclick     Al click sull’elemento HTML
-onmouseover Quando il mouse viene mosso sull’elemento HTML
-onmouseout  Quando il mouse viene mosso fuori dall’elemento HTML
+onclick     Al click sull'elemento HTML
+onmouseover Quando il mouse viene mosso sull'elemento HTML
+onmouseout  Quando il mouse viene mosso fuori dall'elemento HTML
 onkeydown   Quando viene premuto un tasto
 onload      Al termine del caricamento della pagina
 ```
