@@ -381,7 +381,7 @@ function nome(parametro1, parametro2, parametro3) {
 
 ## Javascript eventi
 
-Il modo corretto col quale possiamo interagire con delle pagine HTML è tramite l’uso di eventi
+Il modo col quale possiamo interagire con delle pagine HTML è tramite l’uso di eventi
 
 ```javascript
 onchange    Al cambio dell’elemento HTML
@@ -394,6 +394,22 @@ onload      Al termine del caricamento della pagina
 
 ---
 
+## Javascript eventi esempio
+
+L'uso degli eventi è molto semplice, basta aggiungere l'attributo onclick all'elemento HTML ed assegnargli una funzione
+
+```javascript
+<button onclick="myFunction()">Click me</button>
+```
+
+```javascript
+function myFunction() {
+  alert("Hello World!");
+}
+```
+
+---
+
 ## Javascript window
 
 L'oggetto window rappresenta una finestra aperta in un browser.
@@ -401,9 +417,10 @@ L'oggetto window rappresenta una finestra aperta in un browser.
 ```javascript
 document        Restituisce il document object
 history         Restituisce l’oggetto history
-externalHeight  Restituisce l'altezza della finestra del browser, incluse le barre degli strumenti/scrollbar
-outerWidth      Restituisce la larghezza della finestra del browser, incluse le barre degli strumenti/barre di scorrimento
-
+externalHeight  Restituisce l'altezza della finestra del browser, 
+                incluse le barre degli strumenti/scrollbar
+outerWidth      Restituisce la larghezza della finestra del browser, 
+                incluse le barre degli strumenti/barre di scorrimento
 alert()         Visualizza una finestra di avviso con un messaggio e un pulsante OK
 confirm()       Visualizza una finestra di dialogo con un messaggio e un pulsante OK e Annulla
 ```
@@ -418,14 +435,32 @@ Quando un documento HTML viene caricato in un browser Web, diventa un oggetto do
 
 ```javascript
 getElementById()            L'elemento che ha l'attributo ID con il valore specificato
-getElementsByClassName()    Una HTMLCollection contenente tutti gli elementi con il nome di classe specificato
+getElementsByClassName()    Una HTMLCollection contenente tutti gli elementi con il nome di
+                            classe specificato
 getElementsByName()         Una NodeList live contenente tutti gli elementi con il nome specificato
-getElementsByTagName()      Una HTMLCollection contenente tutti gli elementi con il nome del tag specificato
-querySelector()             Il primo elemento che corrisponde a uno o più selettori CSS specificati nel documento
-querySelectorAll()          Una NodeList statica contenente tutti gli elementi che corrispondono a uno o più selettori CSS specificati nel documento
+getElementsByTagName()      Una HTMLCollection contenente tutti gli elementi con il nome del
+                            tag specificato
+querySelector()             Il primo elemento che corrisponde a uno o più selettori CSS specificati
+                            nel documento
+querySelectorAll()          Una NodeList statica contenente tutti gli elementi che corrispondono
+                            a uno o più selettori CSS specificati nel documento
 ```
 
 <https://www.w3schools.com/jsref/prop_win_document.asp>
+
+---
+
+## Javascript l'evento DOMContentLoaded
+
+L'evento DOMContentLoaded viene eseguito quando il documento HTML è stato completamente caricato e analizzato, senza attendere il caricamento di fogli di stile, immagini e frame.
+
+```javascript
+document.addEventListener("DOMContentLoaded", function(event) {
+  console.log("DOM completamente caricato e analizzato");
+});
+```
+
+Scrivere il proprio codice all'interno di questo evento è una buona pratica, in quanto assicura che il codice venga eseguito solo dopo che il documento è stato completamente caricato, evitando errori.
 
 ---
 
