@@ -1,6 +1,6 @@
 # Corso Javascript
 
-[![HTML5 Validation](https://github.com/matteobaccan/CorsoJavascript/actions/workflows/main.yml/badge.svg)](https://github.com/matteobaccan/CorsoJavascript/actions/workflows/main.yml)
+[![HTML5 Validation](https://github.com/matteobaccan/CorsoJavascript/actions/workflows/validation.yml/badge.svg)](https://github.com/matteobaccan/CorsoJavascript/actions/workflows/validation.yml)
 [![CodeQL](https://github.com/matteobaccan/CorsoJavascript/actions/workflows/codeql.yml/badge.svg)](https://github.com/matteobaccan/CorsoJavascript/actions/workflows/codeql.yml)
 [![Genera PDF](https://github.com/matteobaccan/CorsoJavascript/actions/workflows/generatepdf.yml/badge.svg)](https://github.com/matteobaccan/CorsoJavascript/actions/workflows/generatepdf.yml)
 
