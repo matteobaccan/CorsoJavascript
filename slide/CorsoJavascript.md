@@ -388,7 +388,7 @@ auto[0] // per accedere al valore Fiat
 
 ## Javascript funzioni
 
-Se vogliamo creare dei programmi, possiamo creare delle funzioni specializzate nell’eseguire piccoli compiti.
+Se vogliamo creare dei programmi, possiamo creare delle funzioni specializzate nell'eseguire piccoli compiti.
 
 La sintassi delle funzioni è:
 
