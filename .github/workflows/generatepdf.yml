@@ -14,11 +14,16 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: generate pdf
-      run: | 
+    - name: Generate pdf
+      run: |
         cd slide
-        docker run --rm --init -v $PWD:/home/marp/app/ -e LANG="it_IT.UTF-8" -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli CorsoJavascript.md --pdf --allow-local-files
-      
+        cp 'CorsoJavascript.md' 'CorsoJavascript-backup.md'
+        sed -i "s/%date%/$(date +'%Y-%m-%d')/g" 'CorsoJavascript.md'
+        sed -i "s/%time%/$(date +'%H:%M')/g" 'CorsoJavascript.md'
+        npx @marp-team/marp-cli@latest 'CorsoJavascript.md' --pdf --allow-local-files --pdf-outlines --pdf-outlines.pages=false
+        rm 'CorsoJavascript.md'
+        mv 'CorsoJavascript-backup.md' 'CorsoJavascript.md'
+
     - name: commit & push
       run: |
         git add -A
@@ -27,4 +32,4 @@ jobs:
         git add .
         git commit -m "update slides"
         git push
-        
+
