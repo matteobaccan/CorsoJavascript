@@ -3,9 +3,9 @@ theme: default
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('img/background.svg')
 marp: true
-footer: https://github.com/matteobaccan/CorsoJavascript
+footer: https://github.com/matteobaccan/CorsoJavascript versione del %date% %time%
 ---
 
 # Applicazioni Javascript
@@ -20,6 +20,27 @@ Librerie e tecniche utilizzabili in progetti Javascript
 img[alt~='center'] {
   display: block;
   margin: 0 auto;
+}
+h2 {
+    color: #e50000;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 15px 0px 0px 75px;
+    height: 70px;
+    border-bottom: 1px solid red;
+    margin: 0px;
+}
+h3 {
+    color: #e50000;
+}
+footer {
+    width: 100%;
+    left: 5px;
+    bottom: 0;
+    padding: 0 0 10px 10px;
 }
 " -->
 
@@ -106,3 +127,5 @@ Ogni immagine inserita riporta la fonte
 ## Disclaimer
 
 L'autore ha generato questo testo in parte con GPT-3, il modello di generazione del linguaggio su larga scala di OpenAI. Dopo aver generato la bozza della lingua, l'autore ha rivisto, modificato e rivisto la lingua a proprio piacimento e si assume la responsabilità  ultima del contenuto di questa pubblicazione.
+
+L'immagine di sfondo è stata generata con <https://app.haikei.app>
