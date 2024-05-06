@@ -69,32 +69,23 @@ Gli slider possono essere creati utilizzando codice HTML, CSS e JavaScript, oppu
 
 ## Slider - ispirazioni
 
-<li><a href="https://swiperjs.com/demos">Swiperjs</a>: uno slider touch-friendly con molte funzionalità, supporta
-        swipe, slide multiple, autoplay, loop, effetti di transizione e molto altro. È anche compatibile con i
-        principali framework JavaScript come React, Angular e Vue.</li>
+* [Swiperjs](https://swiperjs.com/demos): uno slider touch-friendly con molte funzionalità, supporta swipe, slide multiple, autoplay, loop, effetti di transizione e molto altro. È anche compatibile con i principali framework JavaScript come React, Angular e Vue.
 
-<li><a href="https://kenwheeler.github.io/slick/">Slick</a>: uno slider jQuery con molte funzionalità, supporta
-        slide multiple, autoplay, loop, effetti di transizione, navigazione e molto altro.</li>
+* [Slick](https://kenwheeler.github.io/slick/): uno slider jQuery con molte funzionalità, supporta slide multiple, autoplay, loop, effetti di transizione, navigazione e molto altro.
 
-<li><a href="https://flickity.metafizzy.co/#feature-showcase">Flickity</a>: uno slider touch-friendly con effetti di
-        transizione fluidi, supporta slide multiple, autoplay, loop, navigazione e molto altro.</li>
+* [Flickity](https://flickity.metafizzy.co/#feature-showcase): uno slider touch-friendly con effetti di transizione fluidi, supporta slide multiple, autoplay, loop, navigazione e molto altro.
 
-<li><a href="https://glidejs.com/docs/">Glide.js</a>: uno slider leggero e semplice da usare, supporta swipe, slide
-        multiple, autoplay, navigazione e molto altro.</li>
+* [Glide.js](https://glidejs.com/docs/): uno slider leggero e semplice da usare, supporta swipe, slide multiple, autoplay, navigazione e molto altro.
 
 ---
 
 ## Slider - ispirazioni 2
 
-<li><a href="https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html">Owl Carousel 2</a>: uno slider jQuery con
-        molte funzionalità, supporta slide multiple, autoplay, loop, effetti di transizione, navigazione e molto altro.
-    </li>
+* [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html): uno slider jQuery con molte funzionalità, supporta slide multiple, autoplay, loop, effetti di transizione, navigazione e molto altro.
 
-<li><a href="https://splidejs.com/">Splide</a>: uno slider leggero e performante, supporta swipe, slide multiple,
-        autoplay, loop, effetti di transizione, navigazione e molto altro.</li>
+* [Splide](https://splidejs.com/): uno slider leggero e performante, supporta swipe, slide multiple, autoplay, loop, effetti di transizione, navigazione e molto altro.</li>
 
-<li><a href="http://ganlanyuan.github.io/tiny-slider/demo/">Tiny Slider</a>: uno slider leggero e semplice da usare,
-        supporta swipe, slide multiple, autoplay, loop, navigazione e molto altro.</li>
+* [Tiny Slider](http://ganlanyuan.github.io/tiny-slider/demo/): uno slider leggero e semplice da usare, supporta swipe, slide multiple, autoplay, loop, navigazione e molto altro.
 
 ---
 
@@ -112,7 +103,7 @@ Ci sono diversi strumenti online che consentono di generare placeholder di immag
 
 ## PlaceHolder - ispirazioni
 
-https://loremipsum.io/21-of-the-best-placeholder-image-generators/
+<https://loremipsum.io/21-of-the-best-placeholder-image-generators/>
 
 ---
 
