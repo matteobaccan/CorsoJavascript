@@ -119,7 +119,7 @@ Cleave.js è una libreria JavaScript che consente di formattare automaticamente 
 
 ---
 
-## Slider
+## Slide
 
 Se volte creare un sito che abbia un effetto di scorrimento delle pagine, potete utilizzare la libreria fullPage.js.
 
