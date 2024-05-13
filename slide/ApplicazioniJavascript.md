@@ -135,6 +135,22 @@ Leaflet è una libreria JavaScript open-source per la creazione di mappe interat
 
 ---
 
+## 3D
+
+Con three.js è possibile creare scene 3D interattive utilizzando WebGL.
+
+<https://threejs.org/examples/#webgl_animation_keyframes>
+
+---
+
+## Directory di librerie
+
+Se siete alla ricerca di librerie JavaScript da utilizzare nei vostri progetti, potete consultare il sito JavaScripting.
+
+<https://www.javascripting.com/>
+
+---
+
 ## Fonti
 
 <https://it.wikipedia.org> : definizioni e argomenti
