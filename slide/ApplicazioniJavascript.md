@@ -103,11 +103,39 @@ Ci sono diversi strumenti online che consentono di generare placeholder di immag
 
 ## PlaceHolder - ispirazioni
 
+Su questo sito sono elencati alcuni dei migliori generatori di placeholder di immagini disponibili online:
+
 <https://loremipsum.io/21-of-the-best-placeholder-image-generators/>
 
 ---
 
-Fonti
+## Formatter per Input
+
+Quando dovete inserire dei dati all'interno di una form è sempre importante fare in modo che il dato inserito sia corretto.
+
+Cleave.js è una libreria JavaScript che consente di formattare automaticamente i dati inseriti in un campo di input.
+
+<https://nosir.github.io/cleave.js/>
+
+---
+
+## Slider
+
+Se volte creare un sito che abbia un effetto di scorrimento delle pagine, potete utilizzare la libreria fullPage.js.
+
+<https://alvarotrigo.com/fullPage/#examples>
+
+---
+
+## Mappe
+
+Leaflet è una libreria JavaScript open-source per la creazione di mappe interattive.
+
+<https://leafletjs.com/examples.html>
+
+---
+
+## Fonti
 
 <https://it.wikipedia.org> : definizioni e argomenti
 
