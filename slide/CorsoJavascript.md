@@ -56,7 +56,8 @@ __JavaScript__ è un linguaggio di programmazione multi paradigma orientato agli
 
 ## Javascript - quando nasce
 
-Originariamente sviluppato da Brendan Eich della Netscape Communications con il nome di Mochan e successivamente di LiveScript, in seguito è stato rinominato "JavaScript" ed è stato formalizzato con una sintassi più vicina a quella del linguaggio Java di Sun Microsystems (che nel 2010 è stata acquistata da Oracle).
+Originariamente sviluppato da __Brendan Eich__ della Netscape Communications con il nome di __Mochan__ e successivamente di __LiveScript__, in seguito è stato rinominato "JavaScript" ed è stato formalizzato con una sintassi più vicina a quella del linguaggio Java di Sun Microsystems (che nel 2010 è stata acquistata da Oracle).
+
 Standardizzato per la prima volta il 1997 dalla ECMA con il nome ECMAScript, l'ultimo standard, di giugno 2021, è ECMA-262 Edition 12 ed è anche uno standard ISO (ISO/IEC 16262).
 
 <https://it.wikipedia.org/wiki/JavaScript>
@@ -82,11 +83,10 @@ Iscrivetevi e seguite il profilo creato apposta per il corso
 Editor
 
 - Codepen.io
-- Notepad
-- Notepad++
 - VisualStudio Code
+- Codespace
 
-Va bene qualsiasi editor, non visuale, meglio se con syntax highlighter e code completion
+Va bene qualsiasi editor, non visuale, meglio se con __syntax highlighter__ e code completion
 
 Le slide e i sorgenti del corso, liberamente ispirati a <https://www.w3schools.com> e costantemente aggiornati, sono disponibili a questo indirizzo
 
@@ -112,6 +112,7 @@ console.log("Hello World");
 ## Javascript può essere aggiunto ai documenti HTML in 2 modi
 
 __Interno__ - utilizzando un elemento __\<script\>__
+
 __Esterno__: utilizzando un elemento __\<link\>__ per collegarsi a un file JS esterno
 
 ---
@@ -125,9 +126,11 @@ __Esterno__: utilizzando un elemento __\<link\>__ per collegarsi a un file JS es
  </head>
  <body>
   <h1>Javascript</h1>
+
   <script>
     alert('Hello, world!');
   </script>
+
  </body>
 </html>
 ```
@@ -140,7 +143,9 @@ __Esterno__: utilizzando un elemento __\<link\>__ per collegarsi a un file JS es
 <!DOCTYPE html>
 <html>
  <head>
+
    <script src="script.js"></script>
+   
  </head>
  <body>
   <h1>Javascript</h1>
@@ -251,7 +256,7 @@ let messaggio
 
 Ci sono 8 tipi base in javascript. Essendo una variabile solo il nome di una zona di memoria, possiamo cambiarne il tipo in qualsiasi momento passando, ad esempio da numero a stringa di caratteri, senza avere errori.
 
-Numeri : sia interi che a virgola mobile
+Numeri (sia interi che a virgola mobile)
 
 ```javascript
 let numero = 8;
@@ -262,7 +267,8 @@ numero = 3.14;
 
 ## Javascript - datatype limiti
 
-In JavaScript, il tipo numero non può rappresentare valori interi maggiori di (253-1) (ovvero 9007199254740991) o inferiori a -(253-1) per i negativi. È una limitazione tecnica causata dalla loro rappresentazione interna.
+In JavaScript, il tipo numero non può rappresentare valori interi maggiori di __Number.MAX_SAFE_INTEGER__ che rappresenta il valore di 9.007.199.254.740.991 (ovvero 2<sup>53</sup> - 1) o inferiori a -(2<sup>53</sup>-1) per i negativi.
+È una limitazione tecnica causata dalla loro rappresentazione interna a 64 bit (standard IEEE 754).
 
 Per la maggior parte degli scopi è abbastanza, ma a volte abbiamo bisogno di numeri davvero grandi, ad es. per crittografia o timestamp con precisione di microsecondi.
 
@@ -288,7 +294,8 @@ Singole: 'Hello'
 Backtick: `Hello`
 ```
 
-Il backtick è ottenibile con ALT + 96
+Il backtick è ottenibile con ALT + 96 
+Su Mac è possibile ottenerlo con __Alt__ + __\\__ oppure __Alt__ + __9__ e successivamente __spazio__
 
 ---
 
@@ -485,7 +492,7 @@ Scrivere il proprio codice all'interno di questo evento è una buona pratica, in
 
 ---
 
-Fonti
+## Fonti
 
 <https://www.w3schools.com> : argomenti ed idee per esempi
 <https://it.wikipedia.org> : definizioni e argomenti
