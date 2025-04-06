@@ -28,8 +28,8 @@ h2 {
     background-color: white;
     width: 100%;
     left: 0;
-    padding: 15px 0px 0px 75px;
-    height: 70px;
+    padding: 10px 0px 0px 75px;
+    height: 65px;
     border-bottom: 1px solid red;
     margin: 0px;
 }
@@ -111,7 +111,7 @@ console.log("Hello World");
 
 ## Javascript può essere aggiunto ai documenti HTML in 2 modi
 
-__Interno__ - utilizzando un elemento __\<script\>__
+__Interno__: utilizzando un elemento __\<script\>__
 
 __Esterno__: utilizzando un elemento __\<link\>__ per collegarsi a un file JS esterno
 
@@ -171,7 +171,7 @@ debugger
 
 ## Coding style <https://javascript.info/coding-style>
 
-![center width:700px](img/coding-style.png)
+![center width:800px](img/coding-style.png)
 
 ---
 
@@ -200,6 +200,7 @@ Monoriga
 
 ```javascript
 // Ciao sono un commento
+alert(‘Ciao’);
 ```
 
 Multiriga
@@ -209,6 +210,7 @@ Multiriga
 Ciao sono un commento 
 multiriga
 */
+alert(‘Ciao’);
 ```
 
 ---
@@ -260,6 +262,7 @@ Numeri (sia interi che a virgola mobile)
 
 ```javascript
 let numero = 8;
+
 numero = 3.14;
 ```
 
@@ -267,14 +270,14 @@ numero = 3.14;
 
 ## Javascript - datatype limiti
 
-In JavaScript, il tipo numero non può rappresentare valori interi maggiori di __Number.MAX_SAFE_INTEGER__ che rappresenta il valore di 9.007.199.254.740.991 (ovvero 2<sup>53</sup> - 1) o inferiori a -(2<sup>53</sup>-1) per i negativi.
+In JavaScript, il tipo numero non può rappresentare valori interi maggiori di __Number.MAX_SAFE_INTEGER__ che rappresenta il valore di __9.007.199.254.740.991__ (ovvero 2<sup>53</sup> - 1) o inferiori a -(2<sup>53</sup>-1) per i negativi.
 È una limitazione tecnica causata dalla loro rappresentazione interna a 64 bit (standard IEEE 754).
 
 Per la maggior parte degli scopi è abbastanza, ma a volte abbiamo bisogno di numeri davvero grandi, ad es. per crittografia o timestamp con precisione di microsecondi.
 
 Il tipo BigInt è stato recentemente aggiunto al linguaggio per rappresentare numeri interi di lunghezza arbitraria.
 
-Un valore BigInt viene creato aggiungendo n alla fine di un numero intero:
+Un valore BigInt viene creato aggiungendo __n__ alla fine di un numero intero:
 
 ```javascript
 let bigInt = 1234567890123456789012345678901234567890n;
@@ -290,11 +293,13 @@ Esistono 3 tipi di virgolette
 
 ```javascript
 Doppie: "Hello"
+
 Singole: 'Hello'
+
 Backtick: `Hello`
 ```
 
-Il backtick è ottenibile con ALT + 96 
+Il backtick è ottenibile con ALT + 96
 Su Mac è possibile ottenerlo con __Alt__ + __\\__ oppure __Alt__ + __9__ e successivamente __spazio__
 
 ---
@@ -305,7 +310,9 @@ Il comportamento delle stringhe è diverso in base al tipo di virgolette utilizz
 
 ```javascript
 let str = "ciao";
+
 let str2 = 'ciao a singola virgoletta';
+
 let frase = `inserisco una stringa ${str}`;
 ```
 
@@ -503,6 +510,15 @@ Ogni immagine inserita riporta la fonte
 
 ## Disclaimer
 
-L'autore ha generato questo testo in parte con GPT-3, il modello di generazione del linguaggio su larga scala di OpenAI. Dopo aver generato la bozza della lingua, l'autore ha rivisto, modificato e rivisto la lingua a proprio piacimento e si assume la responsabilità  ultima del contenuto di questa pubblicazione.
+Questo materiale è stato realizzato con le seguenti modalità:
 
-L'immagine di sfondo è stata generata con <https://app.haikei.app>
+- Contenuto testuale
+Redatto attraverso sistemi di AI per la generazione della bozza iniziale, successivamente rielaborato, verificato e integrato manualmente dall'autore.
+
+- Elementi grafici
+L'immagine di sfondo è stata generata tramite [Haikei.app](https://app.haikei.app). Eventuali altri elementi visivi derivano da banche immagini royalty-free o creazioni originali.
+
+- Ricerche
+I dati e le informazioni citate sono state raccolte da fonti pubbliche accessibili online, selezionate e contestualizzate in modo critico dall'autore.
+
+La direzione intellettuale, le scelte contenutistiche e l'accuratezza delle informazioni restano sotto la piena responsabilità dell'autore.
