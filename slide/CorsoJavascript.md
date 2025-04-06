@@ -504,7 +504,7 @@ Scrivere il proprio codice all'interno di questo evento è una buona pratica, in
 <https://www.w3schools.com> : argomenti ed idee per esempi
 <https://it.wikipedia.org> : definizioni e argomenti
 
-Ogni immagine inserita riporta la fonte
+Ogni immagine inserita riporta la fonte di provenienza
 
 ---
 
