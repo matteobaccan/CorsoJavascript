@@ -145,9 +145,9 @@ Con three.js è possibile creare scene 3D interattive utilizzando WebGL.
 
 ## Directory di librerie
 
-Se siete alla ricerca di librerie JavaScript da utilizzare nei vostri progetti, potete consultare il sito JavaScripting.
+Se siete alla ricerca di librerie JavaScript da utilizzare nei vostri progetti, potete consultare il sito Libhunt.
 
-<https://www.javascripting.com/>
+<https://js.libhunt.com/>
 
 ---
 
